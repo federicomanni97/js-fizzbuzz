@@ -12,11 +12,11 @@ let i;
         box.innerText = `fizzbuzz`;
     }
     else if(i % 3 === 0){
-        box.classList.add('bg-success');
+        box.classList.add('bg-success', 'text-light');
         box.innerText = `fizz`;
     }
     else if(i % 5 === 0){
-        box.classList.add('bg-warning');
+        box.classList.add('bg-warning', 'text-light');
         box.innerText = `buzz`;
     }  
     else{
@@ -24,6 +24,6 @@ let i;
         box.innerHTML = `${i}`;
     }
     document.getElementById('boxContainer').appendChild(box);
-    box.classList.add('square-dimension', 'd-flex', 'justify-content-center', 'align-items-center');
+    box.classList.add('square-dimension', 'fs-5', 'd-flex', 'justify-content-center', 'align-items-center');
 
 }
