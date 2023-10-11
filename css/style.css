@@ -1,0 +1,17 @@
+
+
+body{
+    background-color: #083B4C;
+}
+
+.root{
+    square-1: #1389B2;
+    square-2: #0CD6A1;
+    square-3: #FFD166;
+}
+
+.wrapper{
+    width: 500px;
+    height: 500px;
+    background-color: grey;
+}
