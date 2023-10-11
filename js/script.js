@@ -12,18 +12,18 @@ let i;
         box.innerText = `fizzbuzz`;
     }
     else if(i % 3 === 0){
-        box.classList.add('bg-danger');
+        box.classList.add('bg-success');
         box.innerText = `fizz`;
     }
     else if(i % 5 === 0){
-        box.classList.add('bg-danger');
+        box.classList.add('bg-warning');
         box.innerText = `buzz`;
     }  
     else{
-        box.classList.add('bg-danger');
+        box.classList.add('bg-primary');
         box.innerHTML = `${i}`;
     }
     document.getElementById('boxContainer').appendChild(box);
-    box.classList.add('square-dimension', 'text-center');
+    box.classList.add('square-dimension', 'd-flex', 'justify-content-center', 'align-items-center');
 
 }

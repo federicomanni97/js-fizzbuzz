@@ -4,19 +4,21 @@ body{
     background-color: #083B4C;
 }
 
-.root{
-    square-1: #1389B2;
-    square-2: #0CD6A1;
-    square-3: #FFD166;
+:root{
+    --square-1: #1389B2;
+    --square-2: #0CD6A1;
+    --square-3: #FFD166;
+    --body-background: #083B4C;
 }
 
 .wrapper{
     width: 1000px;
-    background-color: grey;
+    background-color: var(--body-background);
 }
 
 .square-dimension{
     width: 100px;
     height: 100px;
+    margin: 10px;
     border: 1px solid white;
 }
